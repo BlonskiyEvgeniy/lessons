@@ -1,0 +1,89 @@
+@import url("reset.css");
+
+/* header */
+.head a {
+    color: red;
+}
+
+
+/* F-16 */
+.F16 a {
+    color: green;
+}
+
+#element_f16 {
+    color: orange;
+}
+
+.text_f16 {
+    color: chocolate;
+}
+
+[href] {
+    color: forestgreen;
+}
+
+
+/* Leopard 2 */
+.leo 
+.leopard {
+    color: blue;
+}
+
+.leo_2 {
+    color: brown;
+}
+
+
+/* Patriot */
+.patriot > p {
+    color: darkblue;
+}
+
+
+/* Abrams */
+.text_m1 {
+    color: darkblue;
+}
+
+.text_m1 p {
+    color: grey;
+}
+
+.text_m1 h3,h4 {
+    color: black;
+}
+
+.yellow {
+    color: rgb(197, 197, 28);
+}
+
+.blue {
+    color: darkblue;
+}
+
+/* footer */
+.text > p {
+    color: goldenrod;
+}
+
+.text_exam + p {
+    color: blue;
+}
+
+.text_exam_1 ~ p {
+    color: green;
+}
+
+div.text_exam_2 {
+    color: blueviolet;
+}
+
+
+[href="https://google.com"] {
+    color: deepskyblue
+}
+
+[href="https://sinoptik.ua"] {
+    color: brown;
+}
