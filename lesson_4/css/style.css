@@ -1,0 +1,134 @@
+@import url("reset.css");
+
+/* Fonts */
+/* Google Fonts для бістрого подключения через плагин добавить - &display=swap */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,500,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Solitreo:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Alegreya:regular,500,700,900,italic,500italic&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Cormorant:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic&display=swap);
+/* Подключение вручную */
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/CircularStd-Book.woff2 ') format('woff2'),url('../fonts/CircularStd-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/CircularStd-Black.woff2') format('woff2'),url('../fonts/CircularStd-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+/* 
+1. Caveat (кир) 
+2. CircularStd
+3.
+*/
+
+body {
+    text-align: center;
+}
+
+a {
+    color: sienna;
+}
+
+.header_link {
+    display: block;
+    text-align: right;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.main {
+    font-family: "Caveat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: goldenrod;
+    text-decoration: underline;
+    text-shadow: 1px 2px 5px #000;
+}
+
+.main_title {
+    text-align: center;
+}
+
+.text_1 {
+    font-family: "Amatic SC", sans-serif ;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2;
+    color: grey;
+}
+
+.text_2 {
+    font-family: Cormorant, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: darkgoldenrod;
+    text-align: left;
+    text-indent: 30px;
+
+}
+
+.text_3 {
+    font-family:"Alegreya", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 1,5;
+    color: chocolate;
+    text-align: right;
+}
+
+
+.text_1_title {
+    text-decoration: underline;
+    font-size: 30px;
+    font-style: italic;
+    color: steelblue;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+
+
+.lorem {
+    font-family: "CircularStd", sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    white-space: 10px;
+    color: brown;
+}
+
+footer {
+    text-align: justify;
+}
+
+.footer_title {
+    text-shadow: 5px 10px 5px #000 ;
+}
+
+.link_1 {
+    text-transform: capitalize;
+    word-spacing: 20px;
+}
+
+.link_2 {
+    text-transform: lowercase;
+}
+
+.link_3 {
+    text-transform: uppercase;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.blue {
+    color: darkblue;
+}
