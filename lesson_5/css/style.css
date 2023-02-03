@@ -1,0 +1,70 @@
+@import url("reset.css");
+
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.79;
+    color: #6C757D;
+}
+
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.text-container {
+    width: 816px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.tittle {
+    width: 400px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+    margin-bottom: 40px;
+}
+
+.text-item {
+    margin-bottom: 40px;
+}
+
+.desert {
+    margin-bottom: 80px;
+}
+
+.tittle-second {
+    width: 605px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.6;
+    color: #212529;
+    margin-bottom: 40px;
+}
+
+.img-container {
+    margin: 0 auto;
+    max-width: 100%;
+    font-size: 0;
+    margin-bottom: 80px;
+
+
+}
+
+.boat {
+    display: inline-block;
+    width: 605px;
+    height: 400px;
+    margin-right: 30px;
+}
+
+.lake {
+    display: inline-block;
+    width: 605px;
+    height: 400px;
+}
+
