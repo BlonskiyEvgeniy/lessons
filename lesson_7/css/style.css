@@ -142,7 +142,7 @@ body {
 }
 
 .speaker-block-text {
-    width: 570px;
+    max-width: 570px;
 }
 
 .speaker-text-title {
